@@ -1,4 +1,5 @@
 :root{
+    color-scheme: light only;
     --cream: #F3E4D2;
     --paper: #FBF6EF;
     --coral: #4B0012;
@@ -13,11 +14,6 @@
   *{ box-sizing: border-box; margin:0; padding:0; }
 
   html{ scroll-behavior: smooth; }
-
-  ::selection{
-    background-color: #300009;
-    color: white;
-  }
 
   body{
     background: var(--cream);
@@ -475,6 +471,21 @@
     font-size: 19px;
     line-height: 2.3;
     color: var(--brown);
+  }
+
+  .poem-intro{
+    font-family: 'Cairo', sans-serif;
+    font-size: 14.5px;
+    color: var(--brown-soft);
+    margin-bottom: 18px;
+  }
+
+  .poem-divider{
+    width: 60px;
+    height: 2px;
+    background: var(--gold);
+    opacity: .5;
+    margin: 34px auto;
   }
 
   @media (max-width: 720px){
